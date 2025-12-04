@@ -128,8 +128,17 @@ header {
   padding: 1rem;
   background: var(--blue-bulletin);
   color: var(--watchdog-white);
-  text-align: center;
+  text-align: left;
   position: relative;
+}
+header h1 {
+  text-align: left;
+}
+
+header .tagline {
+  color: white;
+  text-align: left;
+  margin-top: 0.25rem;
 }
 
 .mobile-nav {
@@ -249,10 +258,17 @@ p {
 #breaking-news article {
   flex: 1 1 45%;
   box-sizing: border-box;
-  margin-bottom: 0;
-  border-bottom: none;
+  margin: 0;
   padding: 0;
+  border: none;
 }
+
+#breaking-news video {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
 
 
 #alerts .form-container {
