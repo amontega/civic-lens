@@ -249,7 +249,11 @@ p {
 #breaking-news article {
   flex: 1 1 45%;
   box-sizing: border-box;
+  margin-bottom: 0;
+  border-bottom: none;
+  padding: 0;
 }
+
 
 #alerts .form-container {
   background-color: var(--news-flash);
