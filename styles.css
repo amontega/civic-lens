@@ -259,20 +259,28 @@ p {
 }
 
 #breaking-news article {
-  flex: 1 1 45%;
+  flex: 1 1 45%; 
+  background-color: var(--news-flash);
+  color: white; 
+  padding: 16px;
+  border-radius: 8px;
   box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  border: 2px solid var(--news-flash);
-  border-radius: 0px;
-  background-color: var(--watchdog-white); 
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+
+#breaking-news article h2,
+#breaking-news article p {
+  color: white;
 }
 
 #breaking-news video {
   width: 100%;
   height: auto;
   display: block;
-  border-radius: 4px; /* slightly inside the red border */
+  border-radius: 4px;
 }
 
 
