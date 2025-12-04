@@ -240,12 +240,23 @@ p {
   grid-template-columns: 1fr;
   gap: 16px;
 }
+#breaking-news {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+#breaking-news article {
+  flex: 1 1 45%;
+  box-sizing: border-box;
+}
+
 #alerts .form-container {
   background-color: var(--news-flash);
   padding: 20px;
   max-width: 500px;
   margin: 20px auto;
-  border-radius: 8px;
+  border-radius: 0px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
   color: white;
 }
