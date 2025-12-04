@@ -105,35 +105,36 @@
     <section id="alerts">
       <h2>Stay Informed. Stay Empowered.</h2>
       <p>Receive text messages with the news you want to know.</p>
-
-   
-      <form action="https://wp.zybooks.com/form-viewer.php" method="post">
-
-        <div>
-          <label for="name">Name</label>
-          <input id="name" name="name" type="text" required>
-        </div>
-
-        <div>
-          <label for="mobile">Mobile</label>
-          <input id="mobile" name="mobile" type="tel" required>
-        </div>
-
-        <fieldset>
-          <legend>Notification Preferences</legend>
-
-          <label><input type="checkbox" name="news[]" value="Breaking News"> Breaking News</label>
-          <label><input type="checkbox" name="news[]" value="Politics"> Politics</label>
-          <label><input type="checkbox" name="news[]" value="Weather"> Weather</label>
-          <label><input type="checkbox" name="news[]" value="Sports"> Sports</label>
-          <label><input type="checkbox" name="news[]" value="Entertainment"> Entertainment</label>
-          <label><input type="checkbox" name="news[]" value="World"> World</label>
-          <label><input type="checkbox" name="news[]" value="Financial"> Financial</label>
-        </fieldset>
-
-        <button type="submit">Subscribe</button>
-      </form>
+    
+      <div class="form-container">
+        <form action="https://wp.zybooks.com/form-viewer.php" method="post">
+          <div>
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text" required>
+          </div>
+    
+          <div>
+            <label for="mobile">Mobile</label>
+            <input id="mobile" name="mobile" type="tel" required>
+          </div>
+    
+          <fieldset>
+            <legend>Notification Preferences</legend>
+    
+            <label><input type="checkbox" name="news[]" value="Breaking News"> Breaking News</label>
+            <label><input type="checkbox" name="news[]" value="Politics"> Politics</label>
+            <label><input type="checkbox" name="news[]" value="Weather"> Weather</label>
+            <label><input type="checkbox" name="news[]" value="Sports"> Sports</label>
+            <label><input type="checkbox" name="news[]" value="Entertainment"> Entertainment</label>
+            <label><input type="checkbox" name="news[]" value="World"> World</label>
+            <label><input type="checkbox" name="news[]" value="Financial"> Financial</label>
+          </fieldset>
+    
+          <button type="submit">Subscribe</button>
+        </form>
+      </div>
     </section>
+    
 
    
     <section id="social">
