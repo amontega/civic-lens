@@ -250,6 +250,14 @@ p {
   gap: 16px;
 }
 /* Fix for breaking news videos */
+#breaking-news h2.section-title {
+  text-align: left; 
+  margin-bottom: 16px;
+  font-family: var(--font-heading);
+  font-size: 1.8rem;
+  color: var(--truth-text); 
+}
+
 #breaking-news {
   display: flex;
   gap: 20px;
