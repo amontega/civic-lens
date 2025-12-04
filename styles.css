@@ -174,7 +174,6 @@ header .tagline {
   border-radius: 0.25rem;
 }
 
-/* Desktop nav hidden until media query */
 @media (min-width: 920px) {
   .mobile-nav .menu-button {
     display: none;
@@ -249,7 +248,15 @@ p {
   grid-template-columns: 1fr;
   gap: 16px;
 }
-/* Fix for breaking news videos */
+#breaking-news h2,
+#featured-articles h2 {
+  text-align: left;
+  margin-bottom: 16px;
+  font-family: var(--font-heading);
+  font-size: 1.8rem;
+  color: var(--truth-text);
+}
+
 #breaking-news h2.section-title {
   text-align: left; 
   margin-bottom: 16px;
@@ -357,6 +364,7 @@ p {
   margin-bottom: 4px;
   border-bottom: 1px solid black;
   padding-bottom: 4px;
+  font-family: var(--font-heading);
 }
 
 #featured-articles article p {
